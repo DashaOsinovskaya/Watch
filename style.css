@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+body {
+  width: 1366px;
+  margin: 0;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  color: #555248;
+  font-size: 14px;
+  height: 85px;
+  line-height: 85px;
+  display: flex;
+}
+header #logo {
+  margin-top: 31px;
+  margin-left: 97px;
+  height: 26px;
+}
+header .menu {
+  word-spacing: 65px;
+  text-align: center;
+  margin-left: 266.32px;
+}
+header .iconstop {
+  position: relative;
+  left: 278px;
+}
+header .iconstop #like {
+  background-color: #E6C8B4;
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 25px;
+  left: 55px;
+  font-size: 8px;
+  line-height: 13px;
+  text-align: center;
+}
+header .iconstop img {
+  margin-right: 23px;
+}
+
+.screen1 {
+  display: flex;
+}
+.screen1 hr {
+  width: 50px;
+  margin: 0 auto;
+  color: #8B8371;
+}
+.screen1 button {
+  position: absolute;
+  top: 468px;
+  left: 215px;
+  width: 205px;
+  height: 64px;
+  background-color: #444240;
+  color: white;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.screen1 #main {
+  position: absolute;
+  left: 685px;
+}
+.screen1 #back {
+  position: relative;
+  left: 469px;
+}
+.screen1 #K {
+  color: #1B1A17;
+}
+.screen1 #K #k1 {
+  position: absolute;
+  font-family: "Playfair Display", serif;
+  top: 236px;
+  font-size: 45px;
+  left: 215px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+.screen1 #K #k1 hr {
+  position: absolute;
+  left: -65px;
+  top: 36px;
+}
+.screen1 #K #k2 {
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  top: 300px;
+  left: 215px;
+  font-size: 30px;
+}
+.screen1 #K #k3 {
+  position: absolute;
+  top: 370px;
+  left: 215px;
+  width: 258px;
+  opacity: 82%;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.screen1 #C {
+  position: absolute;
+  left: 583px;
+  top: 223px;
+  font-size: 16px;
+  font-family: "Prata", serif;
+}
+.screen1 #C hr {
+  position: absolute;
+  top: 10px;
+  left: 90px;
+}
+.screen1 #D {
+  position: absolute;
+  left: 1130px;
+  top: 721px;
+  font-size: 16px;
+  font-family: "Prata", serif;
+}
+.screen1 #D hr {
+  position: absolute;
+  left: -65px;
+  top: 11px;
+}
+
+.screen2 {
+  margin-top: 79px;
+  color: #1B1A17;
+  font-family: "Playfair Display", serif;
+}
+.screen2 hr {
+  width: 30px;
+  color: #8B8371;
+}
+.screen2 #M {
+  font-size: 32px;
+  text-align: center;
+}
+.screen2 #V {
+  text-align: right;
+  margin-right: 98px;
+  font-family: "Roboto", sans-serif;
+  color: #444240;
+  font-size: 16px;
+  font-weight: 500;
+}
+.screen2 #V hr {
+  position: absolute;
+  top: 991.5px;
+  left: 1166px;
+  width: 101px;
+}
+.screen2 .card {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 467px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.screen2 .card div {
+  width: 313px;
+  height: 313px;
+}
+.screen2 .card .img1 {
+  position: relative;
+}
+.screen2 .card .img2 {
+  width: 313px;
+  height: 313px;
+  position: absolute;
+  vertical-align: middle;
+}
+.screen2 .card .name {
+  font-family: "Playfair Display", serif;
+  color: #1B1A17;
+  opacity: 82%;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+.screen2 .card .cena {
+  font-size: 12px;
+  font-family: "Prata", serif;
+  color: #1B1A17;
+  opacity: 82%;
+  text-align: left;
+  margin-top: 10px;
+}
+.screen2 .card .other {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  margin-top: 19px;
+  margin-left: 88px;
+  line-height: 16px;
+  display: flex;
+}
+.screen2 .card .other div {
+  height: 0.1px;
+  width: 30px;
+  background-color: #8B8371;
+  margin: 8px 18px 0 -90px;
+}
+.screen2 #cards {
+  display: inline-flex;
+  margin: 52px 0 60px 60px;
+}
+
+.screen3 {
+  height: 519px;
+}
+.screen3 #banner {
+  background-color: #F7F5EF;
+  width: 468px;
+  height: 519px;
+}
+.screen3 img {
+  position: absolute;
+  left: 177px;
+  top: 1622px;
+}
+.screen3 button {
+  background-color: #D4B098;
+  width: 205px;
+  height: 64px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 767px;
+  top: 1889px;
+}
+.screen3 #P {
+  position: absolute;
+  top: 1710px;
+  left: 767px;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  color: #1B1A17;
+}
+.screen3 #SH {
+  position: absolute;
+  left: 767px;
+  top: 1781px;
+  width: 376px;
+  color: #444240;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.screen3 #R {
+  position: absolute;
+  left: 1012px;
+  bottom: 1035px;
+}
+.screen3 #zero {
+  position: absolute;
+  left: 552px;
+  top: 2058px;
+  font-family: "Prata", serif;
+  font-size: 12px;
+  word-spacing: 20px;
+}
+
+.screen4 {
+  margin-top: 81px;
+  margin-bottom: 90px;
+}
+.screen4 #maint {
+  position: absolute;
+  left: 97px;
+  top: 2310px;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #1B1A17;
+}
+.screen4 #sub {
+  position: absolute;
+  width: 386px;
+  left: 99px;
+  top: 2383px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444240;
+}
+.screen4 #sub span {
+  color: #262421;
+  font-weight: 700;
+}
+.screen4 #gal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 98px;
+}
+.screen4 #gal div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.screen4 .icons {
+  position: absolute;
+  left: 99px;
+  top: 2545px;
+}
+.screen4 .icons img {
+  margin-right: 18px;
+}
+
+footer {
+  height: 275px;
+  padding: 67px 100px 0 100px;
+  background-color: #444240;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-left: 85px;
+}
+footer div img {
+  margin-bottom: 8px;
+  width: 130px;
+}
+footer .zag {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  margin-bottom: 18px;
+  margin-top: 13px;
+}
+footer .podzag {
+  font-size: 12px;
+  margin-top: 15px;
+}/*# sourceMappingURL=style.css.map */
